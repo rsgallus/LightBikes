@@ -1,0 +1,190 @@
+/* --- MAIN DOCUMENT --- */
+
+html, body {
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+  background: #000000;
+}
+
+#container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* --- HEADER --- */
+
+#header {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  overflow: visible;
+  background: #000000;
+  border-bottom-style: inset;
+  border-bottom-color: #3300FF;
+}
+
+#headerTitle {
+  float: left;
+  line-height: 60px;
+  padding-left: 44%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.8em;
+  color: #33FF00;
+}
+
+#headerSubtitle {
+  float: left;
+  line-height: 40px;
+  padding-left: 48%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4em;
+  color: #33FF00;
+}
+
+#username {
+  float: right;
+  margin-top: 15px;
+  margin-right: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  color: #33FF00;
+}
+
+#logout {
+  float: right;
+  margin-top: 15px;
+  margin-right: 20px;
+  visibility: hidden;
+}
+
+/* --- CONTENT --- */
+
+#content {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: #000000;
+  /*margin: 5% 0;*/
+}
+
+/* --- LOGIN/CREATE ACCOUNT PAGE --- */
+
+.box {
+  margin: auto;
+  margin-top: 5%;
+  background: #CCCCCC;
+  width: 350px;
+  height: auto;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #3300FF;
+}
+
+.boxTitle {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.inputForm {
+  text-align: center;
+  padding: 20px;
+}
+
+#createAccount {
+  margin-left: 20px;
+}
+
+#message {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-right: 5px;
+  padding-left: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  color: #E00000;
+}
+
+/* --- LOBBY PAGE --- */
+
+#usersBox {
+  margin-right: 20%;
+  margin-top: 5%;
+  padding-top: 5px;
+  background: #CCCCCC;
+  width: 300px;
+  height: auto;
+  float: right;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #3300FF;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  overflow: hidden;
+}
+
+#users {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+}
+
+ul#users li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  margin-top: 20px;
+  margin-bottom: 22px;
+}
+
+ul#users li a {
+  background-color: #888888;
+  color: #33FF00;
+  padding-left: 5px;
+  padding-right: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  border-radius: 2px 2px 2px 2px;
+}
+
+ul#users li a:hover {
+  background-color: #000000;
+}
+
+#info {
+  margin-left: 20%;
+  margin-top: 5%;
+  padding-top: 5px;
+  background: #CCCCCC;
+  width: 300px;
+  height: auto;
+  float: left;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #3300FF;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+
+#bike {
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+}
+
+/* --- GAME PAGE --- */
+
+#canvasBox {
+  width: 1200px;
+  margin-top: 10px;
+  margin: auto;
+}
