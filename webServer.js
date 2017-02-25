@@ -115,7 +115,7 @@ function loadLobbyPage(socket, message) {
   }
   var htmlString =  "<div id = 'usersBox'> Active Users <div id = usersList> </div>" +
                     "<div id = message>" + message + "</div> </div> <div id = 'info'> Welcome to Light Bike" +
-                    "<div id ='description'> </div> <img id = 'bike' src='bike.png'> </img> </div>";
+                    "<div id ='description'> </div> <img id = 'bike' src='resources/images/bike.png'> </img> </div>";
   socket.emit('loadLobbyPage', htmlString);
   updateUsersList();
 }
